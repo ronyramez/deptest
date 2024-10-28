@@ -1,0 +1,1 @@
+web: gunicorn testdep.wsgi --log-file -

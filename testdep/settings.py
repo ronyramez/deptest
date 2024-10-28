@@ -75,16 +75,16 @@ WSGI_APPLICATION = 'testdep.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'depTest',  # The name of the database you created in pgAdmin4
-        'USER': 'postgres',      # Your PostgreSQL username
-        'PASSWORD': 'RRRSaleeb@98',  # Your PostgreSQL password
-        'HOST': 'localhost',     # Database server address (use 'localhost' for local dev)
-        'PORT': '5432',          # Default PostgreSQL port
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'depTest',  # The name of the database you created in pgAdmin4
+#         'USER': 'postgres',      # Your PostgreSQL username
+#         'PASSWORD': 'RRRSaleeb@98',  # Your PostgreSQL password
+#         'HOST': 'localhost',     # Database server address (use 'localhost' for local dev)
+#         'PORT': '5432',          # Default PostgreSQL port
+#     }
+# }
 
 
 
